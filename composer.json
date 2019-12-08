@@ -1,0 +1,21 @@
+{
+  "name": "dobrakmato/tsdb-php",
+  "description": "Pure PHP TSDB client",
+  "minimum-stability": "dev",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Matej Kormuth",
+      "email": "matej.kormuth@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-sockets": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "TSDB": "src/"
+    }
+  }
+}
