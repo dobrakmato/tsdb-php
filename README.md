@@ -3,6 +3,23 @@ tsdb-php
 
 Basic pure PHP client for `tsdb`.
 
+## Installing
+
+Add the repository and require line to your `composer.json` file:
+```
+  "repositories": [
+    {
+      "url": "https://github.com/dobrakmato/tsdb-php",
+      "type": "vcs"
+    }
+  ],
+  "require": {
+    "dobrakmato/tsdb-php": "dev-master"
+  }
+```
+
+## Usage
+
 ### Connecting to server
 You connect to TSDB server by creating a new instance of Client class.
 

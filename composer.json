@@ -3,6 +3,7 @@
   "description": "Pure PHP TSDB client",
   "minimum-stability": "dev",
   "license": "mit",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Matej Kormuth",
